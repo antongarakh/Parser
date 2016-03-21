@@ -3,9 +3,6 @@ package by.websolutions.test.model;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Anton on 16.03.2016.
- */
 public class Flight {
     private List <Flight> flights;
     private List <ExtraData> extraDataList;

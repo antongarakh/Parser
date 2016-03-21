@@ -1,7 +1,7 @@
 package by.websolutions.test.model;
 
 
-public class FlightsPropeties {
+public class Properties {
     private final String startDate;
     private final String endDate;
     private final String origin;
@@ -12,8 +12,8 @@ public class FlightsPropeties {
     private final int userID;
     private final String type;
 
-    public FlightsPropeties(String startDate, String endDate, String origin, String destination,
-                            int seats, String comfortClass, int requestID, int userID, String type){
+    public Properties(String startDate, String endDate, String origin, String destination,
+                      int seats, String comfortClass, int requestID, int userID, String type){
         this.startDate = new String(startDate);
         this.endDate = new String(endDate);
         this.origin  = new String(origin);
@@ -64,7 +64,7 @@ public class FlightsPropeties {
 
     @Override
     public String toString() {
-        return "FlightsPropeties{" +
+        return "Properties{" +
                 "startDate='" + startDate + '\'' +
                 ", endDate='" + endDate + '\'' +
                 ", origin='" + origin + '\'' +

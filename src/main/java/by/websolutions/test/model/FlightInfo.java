@@ -1,8 +1,5 @@
 package by.websolutions.test.model;
 
-/**
- * Created by Anton on 16.03.2016.
- */
 public class FlightInfo {
     private String departTime;
     private String departDate;

@@ -1,8 +1,5 @@
 package by.websolutions.test.model;
 
-/**
- * Created by Anton on 16.03.2016.
- */
 public class FlightClassInfo {
     private String name;
     private String status;
