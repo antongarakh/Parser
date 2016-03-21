@@ -16,7 +16,7 @@ public class Parser {
     private static Logger logger = Logger.getLogger(Parser.class.getName());
     private Properties properties;
 
-    public void goToResults(HttpServletRequest req, HttpServletResponse resp) throws InterruptedException {
+    public void goToResults(HttpServletRequest req) throws InterruptedException {
         this.setProperties(req);
         this.setFormProperties();
     }
