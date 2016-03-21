@@ -17,8 +17,8 @@ public class Parser {
     private Properties properties;
 
     public void goToResults(HttpServletRequest req, HttpServletResponse resp) throws InterruptedException {
-        setProperties(req);
-        setFormProperties();
+        this.setProperties(req);
+        this.setFormProperties();
     }
 
     private void setProperties(HttpServletRequest req) {
@@ -67,7 +67,7 @@ public class Parser {
 
 
     private static String parseFlightClass(String flightClass) {
-        if (flightClass.contains("\"F\"") && flightClass.contains("\"B|")) {
+        if (flightClass.contains("\"F\"") && flightClass.contains("\"B\"")) {
             return "awardBusinessFirst";
         }
         if (flightClass.contains("\"E\"") || flightClass.contains("\"P\"")) {
