@@ -18,7 +18,7 @@ public class MainServlet extends HttpServlet {
         out.print("<h1>Hello World</h1>");
         out.close();
         try {
-            parser.goToResults(req, resp);
+            parser.goToResults(req);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
